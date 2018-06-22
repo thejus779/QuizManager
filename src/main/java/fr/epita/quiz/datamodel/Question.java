@@ -1,8 +1,4 @@
-/**
- * Ce fichier est la propriété de Thomas BROUSSARD
- * Code application :
- * Composant :
- */
+
 package fr.epita.quiz.datamodel;
 
 import java.io.Serializable;
@@ -13,19 +9,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
- * <h3>Description</h3>
- * <p>This class allows to ...</p>
+ * This class is dealing with the Question Entity
  *
- * <h3>Usage</h3>
- * <p>This class should be used as follows:
- *   <pre><code>${type_name} instance = new ${type_name}();</code></pre>
- * </p>
+ * @author  THEJUS
  *
- * @since $${version}
- * @see See also $${link}
- * @author ${user}
- *
- * ${tags}
  */
 @Entity
 public class Question implements Serializable{

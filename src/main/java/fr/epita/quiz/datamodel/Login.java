@@ -5,6 +5,13 @@ import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+/**
+ * This class is dealing with the LOGIN Entity
+ *
+ * @author  THEJUS
+ *
+ */
+
 @Entity
 public class Login implements Serializable{
 	/**

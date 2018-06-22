@@ -19,6 +19,13 @@ import org.springframework.beans.BeanWrapper;
 import org.springframework.beans.BeanWrapperImpl;
 import org.springframework.stereotype.Repository;
 
+/**
+ * This class is Generic ORM which helps us in creating generic CRUD operations
+ *
+ * @author  THEJUS
+ *
+ */
+
 @Repository
 public abstract class GenericORMDao<T> {
 
